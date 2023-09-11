@@ -1,0 +1,233 @@
+{
+  "id": "220d2946-c40a-49a9-bfac-ae1f1f317a9b",
+  "version": "2.0",
+  "name": "dog",
+  "url": "https://soundcloud.com/tags/",
+  "tests": [{
+    "id": "d4d82f33-b9e8-4771-833f-5e7a40aaf7b9",
+    "name": "Untitled",
+    "commands": [{
+      "id": "13dab292-d8ea-48c4-8b84-199ba7f72c09",
+      "comment": "",
+      "command": "open",
+      "target": "ambient",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f9f183b-58a6-4369-85df-3d8f3e80431d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.soundList__item:nth-child(1) .sc-button-more",
+      "targets": [
+        ["css=.soundList__item:nth-child(1) .sc-button-more", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div[2]/div/div/ul/li/div/div/div[2]/div[4]/div/div/div/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7efb3bf-5cdb-4de9-9deb-70f82184ffdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-button-addtoset",
+      "targets": [
+        ["css=.sc-button-addtoset", "css:finder"],
+        ["xpath=(//button[@type='button'])[66]", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-button-332']/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to playlist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f1fb2d4-51a6-4240-ba7c-1439d54150a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create a playlist",
+      "targets": [
+        ["linkText=Create a playlist", "linkText"],
+        ["css=.g-tabs-large > .g-tabs-item:nth-child(2) > .tabs__tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Create a playlist')]", "xpath:link"],
+        ["xpath=//div[@id='overlay_654']/div/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create a playlist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f248034-7c88-4b59-9f8d-1474e7553afa",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section/div/div/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1f06c20-527c-4364-ab1c-78c3973a57b3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//section/div/div/input",
+      "targets": [
+        ["id=formControl_655", "id"],
+        ["css=#formControl_655", "css:finder"],
+        ["xpath=//input[@id='formControl_655']", "xpath:attributes"],
+        ["xpath=//div[@id='overlay_648']/div/div/div/div/div[2]/div/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//section/div/div/input", "xpath:position"]
+      ],
+      "value": "ambient"
+    }, {
+      "id": "5da86cce-6333-437e-923c-a8784723a7ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.createPlaylist__saveButton",
+      "targets": [
+        ["css=.createPlaylist__saveButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[66]", "xpath:attributes"],
+        ["xpath=//div[@id='overlay_650']/div/div/div/div/div[2]/div/div/section/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/section/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d04d9a7-8757-490e-b0e2-ec0872c84958",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal__closeButton",
+      "targets": [
+        ["css=.modal__closeButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[65]", "xpath:attributes"],
+        ["xpath=//div[@id='overlay_656']/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13a098f5-6ea6-4467-9304-793decc0574e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.soundList__item:nth-child(1) .sc-button-more",
+      "targets": [
+        ["css=.soundList__item:nth-child(1) .sc-button-more", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div[2]/div/div/ul/li/div/div/div[2]/div[4]/div/div/div/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "861c5949-a4a3-4d79-8c57-b302b2c73205",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-button-addtoset",
+      "targets": [
+        ["css=.sc-button-addtoset", "css:finder"],
+        ["xpath=(//button[@type='button'])[66]", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-button-332']/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to playlist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1082f5b5-286c-4bef-8c6e-51975f43b63b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToPlaylistButton",
+      "targets": [
+        ["css=.addToPlaylistButton", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='overlay_710']/div/div/div/div/div[2]/div/div/section/div/form/div[2]/ul/li/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Added')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd9838c-d87c-4397-9e7d-0d03606a43d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal__closeButton",
+      "targets": [
+        ["css=.modal__closeButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[65]", "xpath:attributes"],
+        ["xpath=//div[@id='overlay_656']/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a993b1ef-4b73-4228-aed1-bfa8425418dc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "065cf9db-2e0c-4fad-a8d6-9d9f9cb7e43d",
+      "comment": "",
+      "command": "times",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc6d3b13-614b-4bca-96c0-c9ee5707ff10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.soundList__item:nth-child(${i}) .sc-button-more",
+      "targets": [
+        ["css=.soundList__item:nth-child(1) .sc-button-more", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div[2]/div/div/ul/li/div/div/div[2]/div[4]/div/div/div/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dc1c6dd-6644-4731-bd44-5a16810cd583",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-button-addtoset",
+      "targets": [
+        ["css=.sc-button-addtoset", "css:finder"],
+        ["xpath=(//button[@type='button'])[66]", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-button-332']/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to playlist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a41ab03-6680-4848-8000-40da68b2f360",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToPlaylistButton",
+      "targets": [
+        ["css=.addToPlaylistButton", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='overlay_710']/div/div/div/div/div[2]/div/div/section/div/form/div[2]/ul/li/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Added')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6df862c1-95a6-4525-86fb-b5c3e67e68eb",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${i} + 1",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "36ed8d87-a490-43e5-8fef-c749a0fd546a",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "50894697-1525-42cc-8953-02b48d25ae02",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d4d82f33-b9e8-4771-833f-5e7a40aaf7b9"]
+  }],
+  "urls": ["https://soundcloud.com/", "https://soundcloud.com/tags/"],
+  "plugins": []
+}
